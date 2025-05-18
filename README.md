@@ -1,8 +1,8 @@
 
-# Convenção de Nomenclaturas: Boas Práticas para Nomear Variáveis, Funções e Classes
+# Convenção de Nomenclaturas: Boas Práticas para Nomear Variáveis, Funções e Classes. + Bônus: Como Nomear no Cenário Android
 
 Este documento é um guia de referência para boas práticas ao nomear suas variáveis, classes e funções no seu código.
-Ter uma boa convenção de nomenclatura para suas variáveis, funções e classes é uma peça importante para o desenvolvimento de software, e ter essa habilidade afiada no seu _skillset_, vão te fazer um programador 3x melhor.
+Ter uma boa convenção de nomenclatura é uma peça importante para o desenvolvimento de software, e ter essa habilidade afiada no seu _skillset_, vão te fazer um programador 3x melhor.
 
 
 ## Qual a importância de saber nomear bem o seu código? 
@@ -105,6 +105,11 @@ val upperNames = names.map { it.uppercase() }
 ```
 
 Esses nomes curtos funcionam quando a intenção é óbvia pelo contexto. Em código complexo, sempre prefira nomes mais descritivos.
+
+## Ponto a se observar 👀
+
+Durante o seu desenvolvimento, possivelmente você precisará trocar várias vezes o nome dos seus elementos, não se preocupe, isso é absolutamente normal. A medida que você for ficando mais inteirado sobre o contexto da funcionalidade que você está trabalhando\
+os nomes que você deveria usar vão ficar cada vez mais claros, até que você ache o nome mais adequado. (talvez, o primeiro nome que você escolherá para sua função/classe/variável não será o melhor.. rs)
 
 ## Como Nomear no Cenário do Android?
 
@@ -216,7 +221,7 @@ Abaixo, está uma tabela com boas práticas de **convenção de nomenclatura** p
 
 ## Considerações Finais
 
-Seguir convenções de nomenclatura claras e consistentes é essencial para garantir legibilidade, manutenção e colaboração eficiente em projetos Android. Ao nomear classes, funções e variáveis de acordo com a responsabilidade de cada camada, você facilita a compreensão do código e reduz a chance de ambiguidade.
+Seguir convenções de nomenclatura claras e consistentes é essencial para garantir legibilidade, manutenção e colaboração eficiente em projetos. Ao nomear classes, funções e variáveis de acordo com a responsabilidade de cada camada, você facilita a compreensão do código e reduz a chance de ambiguidade.
 
 Essa documentação serve como um guia de referência para mantermos um padrão comum dentro do time. Caso novas necessidades surjam ou padrões evoluam, este documento pode (e deve) ser atualizado para refletir as melhores práticas adotadas pelo time.
 
