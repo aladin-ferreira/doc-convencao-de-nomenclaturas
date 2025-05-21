@@ -198,7 +198,7 @@ O mesmo se aplica a camada de visualização do projeto (Fragment, Activities, A
 fun fetchUser() // dentro de uma Activity
 
 //é melhor usar
-fun setupUserUi()
+fun setupUserScreen()
 fun observeUser()
 ```
 
@@ -213,7 +213,7 @@ Abaixo, está uma tabela com boas práticas de **convenção de nomenclatura** p
 
 | Camada       | Responsabilidade                           | Prefixos/Sufixos comuns                    | Exemplo de Funções                                      |
 |--------------|--------------------------------------------|--------------------------------------------|---------------------------------------------------------|
-| `View`       | Exibir dados e interações do usuário       | `setup`, `observe`, `show`, `navigateTo`   | `setupUserUi()`, `observeLoginState()`, `showError()`, `navigateToHome()` |
+| `View`       | Exibir dados e interações do usuário       | `setup`, `observe`, `show`, `navigateTo`   | `setupUserScreen()`, `observeLoginState()`, `showError()`, `navigateToHome()` |
 | `ViewModel`  | Lógica de UI, orquestrar ações             | `perform`, `load`, `handle`, `onX`, `fetchUiState` | `performLogin()`, `loadUserProfile()`, `handleSuccess()`, `onRetryClick()` |
 | `Repository` | Comunicação com fontes de dados (API, DB)  | `get`, `fetch`, `send`, `update`, `create` | `getUserFromRemote()`, `fetchProfile()`, `sendLoginRequest()`, `updateUserData()` |
 | `DataSource` | Acesso direto a API/DB                     | `apiCall`, `query`, `insert`, `post`       | `queryUserById()`, `insertNewUser()`, `postUserData()`, `apiCallLogin()` |
